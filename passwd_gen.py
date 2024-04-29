@@ -29,10 +29,10 @@ def three_words_password():
         print(random_pass)
 
 def main():
-        print("\nGeneration de 10 mot de passe aleatoires : \n")
+        print("\nGenerating 10 random passwords : \n")
         for i in range(10):
             random_password()
-        print("\n\nGeneration de 10 mot de passe a partir de 3 mots : \n")
+        print("\n\nGenerating 10 passwords with 3 random words : \n")
         for i in range(10):
             three_words_password()
        
