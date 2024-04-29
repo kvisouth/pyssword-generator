@@ -24,7 +24,7 @@ def three_words_password():
         words = fichier.readlines()
         words = [word.strip().capitalize() for word in words]
         pass_sep = ['-', '_', '.']
-        random_sep = random.choice(pass_sep)  # Choix aléatoire du séparateur
+        random_sep = random.choice(pass_sep)
         random_pass = random_sep.join(random.choice(words) for _ in range(3))
         print(random_pass)
 
