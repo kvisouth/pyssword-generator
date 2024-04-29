@@ -35,6 +35,7 @@ def main():
         print("\n\nGenerating 10 passwords with 3 random words : \n")
         for i in range(10):
             three_words_password()
+        input("\nPress Enter to exit...")
        
 if __name__ == '__main__':
     main()
